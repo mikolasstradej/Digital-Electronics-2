@@ -29,7 +29,7 @@ int main(void)
 		{		
 			PORTB = PORTB ^ (1<<LED_GREEN);
 			PORTC = PORTC ^ (1<<LED_RED);
-		}
+
     }
     return 0;
 }
